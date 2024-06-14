@@ -1,0 +1,11 @@
+workspace = { members = [ "training/actix-hello-world","training/enum-example", "training/generics-exampl", "training/option-example", "training/traits-example"] }
+[package]
+name = "rust-playground"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+bcrypt = "0.13"
